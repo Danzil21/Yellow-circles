@@ -12,7 +12,7 @@ class Example(QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi('UI.ui', self)
-        self.flag = False
+        self.flag_ = False
         self.pushButton.clicked.connect(self.draw)
         self.coords = []
 
